@@ -10,21 +10,17 @@ CREATE TABLE departments(
 );
 
 CREATE TABLE roles(
-    role_id INT NOT NULL AUTO_INCREMENT,
-    job_title VARCHAR(100) NOT NULL PRIMARY KEY,
+    role_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    job_title VARCHAR(100) NOT NULL,
     department_id INT, 
-    salary DECIMAL(5, 5),
-    FOREIGN KEY(department_id)
-    REFERENCES departments(id)
-    ON DELETE SET NULL
+    salary DECIMAL(5, 5) NOT NULL,
 );
 
 CREATE TABLE employees(
-    emp_id INT NOT NULL AUTO_INCREMENT,
+    emp_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
-    emp_job VARCHAR(100) FOREIGN KEY REFERENCES roles(job_title),
-    salary DECIMAL(5,5) FOREIGN KEY REFERENCES roles(salary),
-    manager VARCHAR(100) NOT NULL
+    role_id INT NOT NULL,
+    manager INT
 );
 
