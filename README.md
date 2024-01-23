@@ -73,7 +73,7 @@ Being the user who's running the application, he'll have access to either grab i
 - MySQL
 
 ## Mock Up
-[Descriptive Video](#https://drive.google.com/file/d/1Tm3j2KJK08HSwG2YR1-SU0fn0203cCNf/view?usp=sharing)
+[Descriptive Video](https://drive.google.com/file/d/1Tm3j2KJK08HSwG2YR1-SU0fn0203cCNf/view?usp=sharing)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
