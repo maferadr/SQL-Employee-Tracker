@@ -6,7 +6,7 @@
 The Application enables the user through an easier database management interface known as CMS (Content Management Systems) to interact with information stored in databases. 
 
 ## Table of Contents:
-- [The Challenge](#The-Challenge)
+- [The Challenge](#Challenges-Faced)
 - [Usage Information](#Usage-Information)
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
@@ -14,8 +14,9 @@ The Application enables the user through an easier database management interface
 - [License](#License)
 - [Author](#Author)
 
-## The Challenge
-Generate an User-interactive backend application in which all the information can be stored in SQL.
+## Challenges Faced
+Generating a database responsive to the User input by itself, had to structure the code over 3 times and definetely needed to look for tutorials that gave me some guidance about how to go through the overall challenge.
+
 
 ## User Story
 
@@ -55,7 +56,8 @@ Being an interactive user application, packages such as Inquirer needed to be in
 - Node JS.
 - Inquirer 8.2.4 version.
 - MySql
-3. Open the integrated terminal, run `node index.js` and start answering the prompted questions.
+- Express JS.
+3. Open the integrated terminal, run `node server.js` and start answering the prompted questions.
 
 ## Usage Instructions
 By answering the questions prompted on your terminal, the user will be able to customize the database structured, in that way he will be able to have a better control on the employees information.
@@ -66,11 +68,12 @@ Being the user who's running the application, he'll have access to either grab i
 - Visual Studio Code VSC for code edition.
 - JavaScript.
 - Node JS.
+- Express JS
 - Inquirer 8.2.4 version.
 - MySQL
 
 ## Mock Up
-[Descriptive Video](#)
+[Descriptive Video](#https://drive.google.com/file/d/1Tm3j2KJK08HSwG2YR1-SU0fn0203cCNf/view?usp=sharing)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
